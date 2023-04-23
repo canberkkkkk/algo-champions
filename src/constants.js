@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 4",
+    questions: [
+      {
+        name: "LeetCode 125 - Valid Palindrome",
+        link: "https://leetcode.com/problems/valid-palindrome/",
+        type: "Two Pointers",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 11 - Container With Most Water",
+        link: "https://leetcode.com/problems/container-with-most-water/",
+        type: "Two Pointers",
+        difficulty: "Medium",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 3",
     questions: [
       {
@@ -15,7 +34,7 @@ export const QUESTION_BUNDLES = [
       {
         name: "LeetCode 167 - Two Sum II - Input Array Is Sorted",
         link: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-        type: "Two Pointer",
+        type: "Two Pointers",
         difficulty: "Medium",
         solutions: {
           Java: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/solutions/3445463/java-o-n-solution/",
