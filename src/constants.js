@@ -7,16 +7,20 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/longest-consecutive-sequence/",
         type: "Arrays & Hashing",
         difficulty: "Medium",
-        solution:
-          "https://leetcode.com/problems/longest-consecutive-sequence/solutions/3445461/java-o-n-solution/",
+        solutions: {
+          Java: "https://leetcode.com/problems/longest-consecutive-sequence/solutions/3445461/java-o-n-solution/",
+          "C++": "https://leetcode.com/submissions/detail/938070944/",
+        },
       },
       {
         name: "LeetCode 167 - Two Sum II - Input Array Is Sorted",
         link: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
         type: "Two Pointer",
         difficulty: "Medium",
-        solution:
-          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/solutions/3445463/java-o-n-solution/",
+        solutions: {
+          Java: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/solutions/3445463/java-o-n-solution/",
+          "C++": "https://leetcode.com/submissions/detail/938074545/",
+        },
       },
     ],
   },
@@ -28,15 +32,17 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/top-k-frequent-elements/",
         type: "Arrays & Hashing",
         difficulty: "Medium",
-        solution:
-          "https://leetcode.com/problems/top-k-frequent-elements/solutions/3445460/java-o-nlogn-solution-using-heap/",
+        solutions: {
+          Java: "https://leetcode.com/problems/top-k-frequent-elements/solutions/3445460/java-o-nlogn-solution-using-heap/",
+          "C++": "https://leetcode.com/submissions/detail/938461639/",
+        },
       },
       {
         name: "Algoleague - Hopscotch",
         link: "https://algoleague.com/contest/algorithm-training-beginner-set/problem/hopscotch/detail",
         type: "Math",
         difficulty: "Easy",
-        solution: "",
+        solutions: null,
       },
     ],
   },
@@ -48,16 +54,20 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/contains-duplicate/",
         type: "Arrays & Hashing",
         difficulty: "Easy",
-        solution:
-          "https://leetcode.com/problems/contains-duplicate/solutions/3445457/java-hashset-solution/",
+        solutions: {
+          Java: "https://leetcode.com/problems/contains-duplicate/solutions/3445457/java-hashset-solution/",
+          "C++": "https://leetcode.com/submissions/detail/938450020/",
+        },
       },
       {
         name: "LeetCode 242 - Valid Anagram",
         link: "https://leetcode.com/problems/valid-anagram/description/",
         type: "Arrays & Hashing",
         difficulty: "Easy",
-        solution:
-          "https://leetcode.com/problems/valid-anagram/solutions/3445458/java-o-n-solution/",
+        solutions: {
+          Java: "https://leetcode.com/problems/valid-anagram/solutions/3445458/java-o-n-solution/",
+          "C++": "https://leetcode.com/submissions/detail/938452900/",
+        },
       },
     ],
   },

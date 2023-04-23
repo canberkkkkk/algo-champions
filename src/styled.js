@@ -170,9 +170,13 @@ export const QuestionDifficulty = styled.div`
   }}
 `;
 
-export const QuestionSolution = styled.a`
+export const QuestionSolution = styled.button`
   ${Tag}
   background-color: #3E63FF;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
 
   ${(props) =>
     !props.hasSolution &&
@@ -181,4 +185,35 @@ export const QuestionSolution = styled.a`
     color: #706C81;
     pointer-events: none;
   `}
+`;
+
+export const Dropdown = styled.div`
+  width: 12rem;
+  position: absolute;
+  bottom: -10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+  background-color: #24222c;
+  padding: 1rem;
+  z-index: 2;
+  box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.2);
+`;
+
+export const DropdownItem = styled.a`
+  opacity: 0.6;
+  color: #ffffff;
+  padding: 1rem 2rem 1rem 1rem;
+  display: block;
+  border-radius: 7.5px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.3rem;
+
+  &:hover {
+    opacity: 1;
+    color: #3e63ff;
+    background-color: #24263f;
+  }
 `;
