@@ -13,12 +13,12 @@ const App = () => {
           Algo <span>Champions</span>
         </sc.Logo>
       </sc.LogoContainer>
-      {QUESTION_BUNDLES.map(({ date, questions }, i) => (
+      {QUESTION_BUNDLES.map(({ date, questions }) => (
         <sc.QuestionBundleContainer>
           <sc.QuestionBundleHeading>{date}</sc.QuestionBundleHeading>
           <sc.QuestionBundleMain>
             {questions.map(
-              ({ name, link, type, difficulty, solution, solved }, j) => (
+              ({ name, link, type, difficulty, solution, solved }) => (
                 <sc.QuestionContainer>
                   <sc.QuestionHeader>
                     <sc.QuestionHeading href={link} target="_blank">

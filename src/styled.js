@@ -12,6 +12,14 @@ export const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+
+    @media (max-width: 1024px) {
+      font-size: 60%;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 57.5%;
+    }
   }
 
   body {
@@ -20,6 +28,10 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #17151D;
     color: white;
   }
+`;
+
+export const Wrapper = styled.div`
+  padding: 2.5rem 0;
 `;
 
 export const Background = styled.img`
@@ -33,7 +45,14 @@ export const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 7.5rem;
+  max-width: 90rem;
+  width: 90%;
+  margin: 0 auto 7.5rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 5rem;
+    justify-content: flex-start;
+  }
 `;
 
 export const Logo = styled.div`
@@ -45,10 +64,6 @@ export const Logo = styled.div`
     color: #ffd88e;
     margin-left: 5px;
   }
-`;
-
-export const Wrapper = styled.div`
-  padding: 2.5rem 0;
 `;
 
 export const LogoIcon = styled.div`
@@ -68,6 +83,7 @@ export const QuestionBundleContainer = styled.div`
   margin: 0 auto 7.5rem;
   position: relative;
   z-index: 1;
+  width: 90%;
 `;
 
 export const QuestionBundleHeading = styled.h1`
@@ -88,6 +104,7 @@ export const QuestionBundleMain = styled.div`
 export const QuestionContainer = styled.div`
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
   background-color: #211f29;
   border-radius: 1.25rem;
@@ -104,6 +121,7 @@ export const QuestionHeading = styled.a`
   text-decoration: none;
   color: white;
   transition: color 0.5s ease;
+  flex-shrink: 0;
 
   &:hover {
     color: #3e63ff;
