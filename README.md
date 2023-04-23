@@ -1,10 +1,6 @@
-## Algo Champions
+## Algo Champions
 
 This project is the frontend of the curated list of algorithm questions.
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
