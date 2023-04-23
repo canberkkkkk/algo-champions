@@ -1,6 +1,6 @@
 ## Algo Champions
 
-https://algo-champions.web.app
+https://algo-champions.web.app \
 This project is the frontend of the curated list of algorithm questions.
 
 ### `npm start`
