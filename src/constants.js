@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 5",
+    questions: [
+      {
+        name: "LeetCode 121 - Best Time to Buy and Sell Stock",
+        link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        type: "Sliding Window",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 3 - Longest Substring Without Repeating Characters",
+        link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        type: "Sliding Window",
+        difficulty: "Medium",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 4",
     questions: [
       {
