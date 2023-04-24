@@ -189,8 +189,10 @@ export const QuestionSolution = styled.button`
 
 export const Dropdown = styled.div`
   width: 12rem;
+  height: 12.5rem;
+  overflow-y: scroll;
   position: absolute;
-  bottom: -10rem;
+  bottom: -13.5rem;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 1rem;

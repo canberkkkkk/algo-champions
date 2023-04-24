@@ -7,14 +7,22 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/valid-palindrome/",
         type: "Two Pointers",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/valid-palindrome/solutions/3450444/java-on-solution/",
+          Cpp: "https://leetcode.com/submissions/detail/938632717/",
+          Javascript: "https://leetcode.com/submissions/detail/938664657/",
+        },
       },
       {
         name: "LeetCode 11 - Container With Most Water",
         link: "https://leetcode.com/problems/container-with-most-water/",
         type: "Two Pointers",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/container-with-most-water/solutions/3450441/java-on-solution-using-two-pointers/",
+          Cpp: "https://leetcode.com/submissions/detail/938622140/",
+          Javascript: "https://leetcode.com/submissions/detail/938862990/",
+        },
       },
     ],
   },
@@ -38,6 +46,8 @@ export const QUESTION_BUNDLES = [
         difficulty: "Medium",
         solutions: {
           Java: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/solutions/3445463/java-o-n-solution/",
+          "Java (2)":
+            "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/938660585/",
           "C++": "https://leetcode.com/submissions/detail/938074545/",
         },
       },
@@ -75,6 +85,8 @@ export const QUESTION_BUNDLES = [
         difficulty: "Easy",
         solutions: {
           Java: "https://leetcode.com/problems/contains-duplicate/solutions/3445457/java-hashset-solution/",
+          "Java (2)":
+            "https://leetcode.com/problems/contains-duplicate/submissions/938654389/",
           "C++": "https://leetcode.com/submissions/detail/938450020/",
         },
       },
@@ -85,6 +97,8 @@ export const QUESTION_BUNDLES = [
         difficulty: "Easy",
         solutions: {
           Java: "https://leetcode.com/problems/valid-anagram/solutions/3445458/java-o-n-solution/",
+          "Java (2)":
+            "https://leetcode.com/problems/valid-anagram/submissions/938657273/",
           "C++": "https://leetcode.com/submissions/detail/938452900/",
         },
       },
