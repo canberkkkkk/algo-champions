@@ -7,14 +7,21 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
         type: "Sliding Window",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/3454280/java-o-n-solution/",
+          "C++": "https://leetcode.com/submissions/detail/939150715/",
+        },
       },
       {
         name: "LeetCode 3 - Longest Substring Without Repeating Characters",
         link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
         type: "Sliding Window",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/longest-substring-without-repeating-characters/solutions/3451071/java-on-solution/",
+          "C++": "https://leetcode.com/submissions/detail/939165865/",
+          Javascript: "https://leetcode.com/submissions/detail/939167119/",
+        },
       },
     ],
   },
@@ -28,7 +35,7 @@ export const QUESTION_BUNDLES = [
         difficulty: "Easy",
         solutions: {
           Java: "https://leetcode.com/problems/valid-palindrome/solutions/3450444/java-on-solution/",
-          Cpp: "https://leetcode.com/submissions/detail/938632717/",
+          "C++": "https://leetcode.com/submissions/detail/938632717/",
           Javascript: "https://leetcode.com/submissions/detail/938664657/",
         },
       },
@@ -39,7 +46,7 @@ export const QUESTION_BUNDLES = [
         difficulty: "Medium",
         solutions: {
           Java: "https://leetcode.com/problems/container-with-most-water/solutions/3450441/java-on-solution-using-two-pointers/",
-          Cpp: "https://leetcode.com/submissions/detail/938622140/",
+          "C++": "https://leetcode.com/submissions/detail/938622140/",
           Javascript: "https://leetcode.com/submissions/detail/938862990/",
         },
       },
