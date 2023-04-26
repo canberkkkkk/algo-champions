@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 6",
+    questions: [
+      {
+        name: "LeetCode 20 - Valid Parentheses",
+        link: "https://leetcode.com/problems/valid-parentheses/",
+        type: "Stack",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 155 - Min Stack",
+        link: "https://leetcode.com/problems/min-stack/",
+        type: "Stack",
+        difficulty: "Medium",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 5",
     questions: [
       {
