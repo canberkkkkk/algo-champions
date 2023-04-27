@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 7",
+    questions: [
+      {
+        name: "LeetCode 150 - Evaluate Reverse Polish Notation",
+        link: "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+        type: "Stack",
+        difficulty: "Medium",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 22 - Generate Parentheses",
+        link: "https://leetcode.com/problems/generate-parentheses/",
+        type: "Stack",
+        difficulty: "Medium",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 6",
     questions: [
       {
@@ -7,14 +26,23 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/valid-parentheses/",
         type: "Stack",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Python:
+            "https://leetcode.com/problems/valid-parentheses/submissions/940503190/",
+          Java: "https://leetcode.com/problems/valid-parentheses/solutions/3461383/java-o-n-solution/",
+          "C++": "https://leetcode.com/submissions/detail/940264952/",
+          Javascript: "https://leetcode.com/submissions/detail/940284398/",
+        },
       },
       {
         name: "LeetCode 155 - Min Stack",
         link: "https://leetcode.com/problems/min-stack/",
         type: "Stack",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/min-stack/solutions/3461340/java-o1-solution-using-arraylist/",
+          "C++": "https://leetcode.com/submissions/detail/940262258/",
+        },
       },
     ],
   },
