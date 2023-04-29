@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 8",
+    questions: [
+      {
+        name: "LeetCode 704 - Binary Search",
+        link: "https://leetcode.com/problems/binary-search/",
+        type: "Binary Search",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 74 - Search a 2D Matrix",
+        link: "https://leetcode.com/problems/search-a-2d-matrix/",
+        type: "Binary Search",
+        difficulty: "Medium",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 7",
     questions: [
       {
@@ -7,14 +26,20 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
         type: "Stack",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/evaluate-reverse-polish-notation/solutions/3466438/java-solution/",
+          "C++": "https://leetcode.com/submissions/detail/940728527/",
+        },
       },
       {
         name: "LeetCode 22 - Generate Parentheses",
         link: "https://leetcode.com/problems/generate-parentheses/",
         type: "Stack",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/generate-parentheses/solutions/3466411/java-solution/",
+          "C++": "https://leetcode.com/submissions/detail/940741165/",
+        },
       },
     ],
   },
