@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 9",
+    questions: [
+      {
+        name: "LeetCode 206 - Reverse Linked List",
+        link: "https://leetcode.com/problems/reverse-linked-list/",
+        type: "Linked List",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 21 - Merge Two Sorted Lists",
+        link: "https://leetcode.com/problems/merge-two-sorted-lists/",
+        type: "Linked List",
+        difficulty: "Easy",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 8",
     questions: [
       {
@@ -7,14 +26,20 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/binary-search/",
         type: "Binary Search",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/binary-search/solutions/3470227/java-o-logn-solution/",
+          "C++": "https://leetcode.com/submissions/detail/941652464/",
+        },
       },
       {
         name: "LeetCode 74 - Search a 2D Matrix",
         link: "https://leetcode.com/problems/search-a-2d-matrix/",
         type: "Binary Search",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/search-a-2d-matrix/solutions/3470199/java-o-log-m-n-solution/",
+          "C++": "https://leetcode.com/submissions/detail/941663784/",
+        },
       },
     ],
   },
