@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 10",
+    questions: [
+      {
+        name: "LeetCode 141 - Linked List Cycle",
+        link: "https://leetcode.com/problems/linked-list-cycle/",
+        type: "Linked List",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 19 - Remove Nth Node From End of List",
+        link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+        type: "Linked List",
+        difficulty: "Medium",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 9",
     questions: [
       {
@@ -7,14 +26,20 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/reverse-linked-list/",
         type: "Linked List",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/reverse-linked-list/solutions/3470890/java-iterative-solution/",
+          "C++": "https://leetcode.com/submissions/detail/942190251/",
+        },
       },
       {
         name: "LeetCode 21 - Merge Two Sorted Lists",
         link: "https://leetcode.com/problems/merge-two-sorted-lists/",
         type: "Linked List",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/merge-two-sorted-lists/solutions/3470887/java-solution/",
+          "C++": "https://leetcode.com/submissions/detail/942208453/",
+        },
       },
     ],
   },
