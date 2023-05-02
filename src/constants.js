@@ -7,14 +7,20 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/linked-list-cycle/",
         type: "Linked List",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/linked-list-cycle/solutions/3470893/java-slow-fast-pointer-solution/",
+          "C++": "https://leetcode.com/submissions/detail/942643556/",
+        },
       },
       {
         name: "LeetCode 19 - Remove Nth Node From End of List",
         link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
         type: "Linked List",
         difficulty: "Medium",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/3478142/java-slow-fast-pointer-solution/",
+          "C++": "https://leetcode.com/submissions/detail/942648747/",
+        },
       },
     ],
   },
