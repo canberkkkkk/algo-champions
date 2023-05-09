@@ -1,5 +1,24 @@
 export const QUESTION_BUNDLES = [
   {
+    date: "Day - 12",
+    questions: [
+      {
+        name: "LeetCode 226 - Invert Binary Tree",
+        link: "https://leetcode.com/problems/invert-binary-tree/",
+        type: "Binary Tree",
+        difficulty: "Easy",
+        solutions: null,
+      },
+      {
+        name: "LeetCode 104 - Maximum Depth of Binary Tree",
+        link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+        type: "Binary Tree",
+        difficulty: "Easy",
+        solutions: null,
+      },
+    ],
+  },
+  {
     date: "Day - 11",
     questions: [
       {
@@ -7,21 +26,30 @@ export const QUESTION_BUNDLES = [
         link: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
         type: "Binary Tree",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/binary-tree-inorder-traversal/solutions/3505657/java-solution/",
+          "C++": "https://leetcode.com/submissions/detail/943880565/",
+        },
       },
       {
         name: "LeetCode 144 - Binary Tree Preorder Traversal",
         link: "https://leetcode.com/problems/binary-tree-preorder-traversal/",
         type: "Binary Tree",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/binary-tree-preorder-traversal/solutions/3505659/java-solution/",
+          "C++": "https://leetcode.com/submissions/detail/943880820/",
+        },
       },
       {
         name: "LeetCode 145 - Binary Tree Postorder Traversal",
         link: "https://leetcode.com/problems/binary-tree-postorder-traversal/",
         type: "Binary Tree",
         difficulty: "Easy",
-        solutions: null,
+        solutions: {
+          Java: "https://leetcode.com/problems/binary-tree-postorder-traversal/solutions/3505661/java-solution/",
+          "C++": "https://leetcode.com/submissions/detail/943881070/",
+        },
       },
     ],
   },
